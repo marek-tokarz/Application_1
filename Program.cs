@@ -13,6 +13,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
     Console.WriteLine("Test of commiting changes from a remote GitHub repository");
     Console.WriteLine("Test of commiting changes from a local repository in Visual Studio");
+    // new comment - made in a master branch
 }
 
 app.UseHttpsRedirection();
